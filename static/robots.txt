@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: https://minimal-blog.netlify.com/sitemap.xml
+sitemap: https://nifty-spence-2e3a27.netlify.com/sitemap.xml

@@ -1,8 +1,8 @@
-import React from 'react';
+import { Article, Button, Layout, SectionTitle, Wrapper } from 'components';
+import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Link, graphql } from 'gatsby';
+import React from 'react';
 import styled from 'styled-components';
-import { Layout, Article, Wrapper, Button, SectionTitle } from 'components';
 import { media } from '../utils/media';
 
 const Content = styled.div`
@@ -47,8 +47,9 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
+          I&apos;m Ahmad Awais, an open source software developer advocate and WordPress Core Developer. I'm all about
+          JavaScript and Cloud nowadays. Let's become friends on Twitter{' '}
+          <a href="https://twitter.com/MrAhmadAwais/">@MrAhmadAwais →</a>
         </p>
         <Link to="/contact">
           <Button big>
